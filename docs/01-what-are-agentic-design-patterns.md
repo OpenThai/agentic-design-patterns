@@ -4,7 +4,7 @@
 
 ## แนวคิดพื้นฐาน
 
-Agentic Design Pattern คือ **รูปแบบสถาปัตยกรรมที่ใช้ซ้ำได้** สำหรับออกแบบระบบที่ใช้ AI Agent ในการทำงาน เช่นเดียวกับ Gang of Four Design Patterns ในการพัฒนา Software — Patterns ช่วยให้คุณไม่ต้องออก解决问题的วิธีใหม่ทุกครั้งที่มีปัญหา
+Agentic Design Pattern คือ **รูปแบบสถาปัตยกรรมที่ใช้ซ้ำได้** สำหรับออกแบบระบบที่ใช้ AI Agent ในการทำงาน เช่นเดียวกับ Gang of Four Design Patterns ในการพัฒนา Software — Patterns ช่วยให้คุณไม่ต้องออกแบบวิธีแก้ปัญหาใหม่ทุกครั้งที่มีปัญหา
 
 ความแตกต่างคือ Agentic Design Patterns ต้องจัดการกับความไม่แน่นอนของ LLMs:
 - LLMs ตอบไม่เหมือนเดิมทุกครั้ง (Non-deterministic)
@@ -66,7 +66,7 @@ Patterns ต่างๆ ช่วยลดปัญหาเหล่านี�
 ├─ สร้างเนื้อหา → Prompt Chaining หรือ Reflection
 ├─ ทำงานกับข้อมูล → Tool-use หรือ RAG
 ├─ ควบคุมคุณภาพ → Evaluator-Optimizer
-├─ ปลอดภัย最重要 → Guardrails + Human-in-the-loop
+├─ ปลอดภัยสำคัญที่สุด → Guardrails + Human-in-the-loop
 └─ ซับซ้อนมาก → Planning → Orchestrator → Multi-agent
 ```
 

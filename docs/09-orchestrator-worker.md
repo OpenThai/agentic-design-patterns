@@ -53,7 +53,7 @@ Orchestrator ไม่เหมือน Router — Router แค่ส่งต
 - **Orchestrator Complexity** — ตัว Orchestrator ซับซ้อน
 - **Single Point of Failure** — ถ้า Orchestrator ล้ม ทั้งระบบล้ม
 - **Communication Overhead** — สื่อสารระหว่าง Orchestrator-Worker
-- **Debug ยาก** — ต้อง追踪หลาย Agent พร้อมกัน
+- **Debug ยาก** — ต้องติดตามหลาย Agent พร้อมกัน
 
 ---
 
@@ -72,7 +72,7 @@ Subtask 1: "ดึงข้อมูล feedback จาก Database"
 Subtask 2: "วิเคราะห์ sentiment แต่ละรายการ"
   → มอบหมาย Worker B (NLP)
 
-Subtask 3: "สรุปแนวโน้มและทำ图表"
+Subtask 3: "สรุปแนวโน้มและทำกราฟ"
   → มอบหมาย Worker C (Analysis + Viz)
 ```
 

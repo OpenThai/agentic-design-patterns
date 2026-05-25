@@ -90,7 +90,7 @@ Optimizer ปรับปรุงตาม Feedback
 Loop 1:
   Optimizer: เขียนบทความ "AI สำหรับธุรกิจ"
   Evaluator: "เนื้อหาดี แต่ขาดตัวอย่างจริง
-              และไม่มีข้อมูลสถิติ支持
+              และไม่มีข้อมูลสถิติสนับสนุน
               ให้คะแนน: 6/10"
   → Feedback: เพิ่มตัวอย่างและสถิติ
 
@@ -133,7 +133,7 @@ Loop 3:
 
 ## ข้อผิดพลาดที่พบบ่อย
 
-1. **Evaluator bias** — ชอบรูปแบบเดิมๆ ไม่鼓励 creativity
+1. **Evaluator bias** — ชอบรูปแบบเดิมๆ ไม่ส่งเสริม creativity
 2. **วงจรไม่จบ** — Optimizer แก้แล้ว Evaluator ก็ยังไม่พอ
 3. **Oscillation** — กลับไป-มาระหว่าง solution เดิม
 4. **Metric Gaming** — Optimizer ปรับให้ผ่าน metric แต่ quality ไม่ขึ้นจริง

@@ -4,7 +4,7 @@
 
 ## Pattern นี้คืออะไร?
 
-Guardrails & Verification คือ **ชั้นป้องกันและตรวจสอบ** ที่คอย确保 Agent ทำงานอยู่ในขอบเขตที่ปลอดภัย ถูกต้อง และเหมาะสม — ทั้งก่อน ระหว่าง และหลังการทำงานของ Agent
+Guardrails & Verification คือ **ชั้นป้องกันและตรวจสอบ** ที่คอยทำให้ Agent ทำงานอยู่ในขอบเขตที่ปลอดภัย ถูกต้อง และเหมาะสม — ทั้งก่อน ระหว่าง และหลังการทำงานของ Agent
 
 ```
 Input ──→ [Input Guard] ──→ Agent ──→ [Output Guard] ──→ Output
@@ -20,7 +20,7 @@ Input ──→ [Input Guard] ──→ Agent ──→ [Output Guard] ──→
 
 - ทุกระบบที่ใช้งานจริง (Production)
 - ระบบที่เปิดให้ผู้ใช้ทั่วไป
-- ระบบที่ Agent มี access 到工具或ข้อมูลสำคัญ
+- ระบบที่ Agent มี access ถึงข้อมูลสำคัญ
 - ระบบที่ต้อง compliance (การเงิน, การแพทย์, กฎหมาย)
 
 **ตัวอย่าง:**
@@ -118,7 +118,7 @@ Output: "..." → ส่งให้ผู้ใช้
 
 1. **Over-guarding** — บล็อกทุกอย่างจน Agent ทำงานไม่ได้
 2. **Under-guarding** — ตรวจสอบน้อยเกินไปจนเกิด incident
-3. **Bypassable Guardrails** — ผู้ใช้绕过 guardrails ได้
+3. **Bypassable Guardrails** — ผู้ใช้เลี่ยง guardrails ได้
 4. **Guardrails ไม่ updated** — พฤติกรรม LLM เปลี่ยน guardrails ไม่ตาม
 5. **Silent Blocking** — บล็อก output โดยไม่บอกผู้ใช้
 

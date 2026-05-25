@@ -21,7 +21,7 @@
 1. เริ่มจาก **Start Simple** — ใช้ Prompt Chaining หรือ Routing ก่อน
 2. ถ้าต้องการข้อมูลภายนอก → **RAG** หรือ **Tool-use**
 3. ถ้าต้องการคุณภาพสูงขึ้น → **Reflection** หรือ **Evaluator-Optimizer**
-4. ถ้าปลอดภัย最重要 → **Human-in-the-loop** + **Guardrails**
+4. ถ้าปลอดภัยสำคัญที่สุด → **Human-in-the-loop** + **Guardrails**
 5. ถ้างานซับซ้อนมาก → **Planning** → **Orchestrator-Worker** → **Multi-agent**
 
 ดูเพิ่มเติม: [notes/pattern-comparison.md](notes/pattern-comparison.md)
