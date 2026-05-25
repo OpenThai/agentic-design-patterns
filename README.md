@@ -1,4 +1,4 @@
-# 🤖 Agentic Design Patterns
+# Agentic Design Patterns
 
 **คู่มือ Design Patterns สำหรับสร้าง AI Agent — ใช้ภาษาไทย อธิบายให้เข้าใจง่าย เน้นใช้งานจริง**
 
